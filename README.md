@@ -14,7 +14,7 @@ This project involves the development of a smart coffee machine using the M5Stac
 
 ## Hardware Components
 
-- **M5Stack Core**: The main development board.
+- **M5GO IoT Kit**: The main development board.
 - **RGB LED Unit**: Provides visual feedback to the user.
 - **RFID Unit**: Used to scan and identify user badges.
 - **Watering Unit**: Controls the pump for dispensing coffee.
