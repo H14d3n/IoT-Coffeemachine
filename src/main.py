@@ -139,7 +139,7 @@ def ttimer1():
 
 Konto1 = 120
 Konto2 = 1.5
-m5mqtt = M5mqtt('maschine', '10.5.43.47', 1883, 'admin', 'Bfo12345', 300)
+m5mqtt = M5mqtt('maschine', 'IP', 1883, 'user', 'password', 300)
 m5mqtt.start()
 m5mqtt.publish(str('Status'), str('Online'), 0)
 m5mqtt.set_last_will(str('Status'),str('Offline'))
