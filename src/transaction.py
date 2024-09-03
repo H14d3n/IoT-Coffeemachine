@@ -45,7 +45,7 @@ def fun_initPump_(topic_data):
   pass
 
 
-m5mqtt = M5mqtt('anzeige', '10.5.43.47', 1883, 'admin', 'Bfo12345', 300)
+m5mqtt = M5mqtt('anzeige', 'IP', 1883, 'user', 'password', 300)
 m5mqtt.subscribe(str('preis'), fun_preis_)
 m5mqtt.subscribe(str('badgeID'), fun_badgeID_)
 m5mqtt.subscribe(str('kontostand'), fun_kontostand_)
